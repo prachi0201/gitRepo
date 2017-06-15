@@ -5,17 +5,17 @@
 echo new class  //php class
 {
     private     // type declaration for following arrays
-    $in = [					// indexed array
+    $in = [					
         'm'     => 'home',      // Method action
     ],
-    $out = [				//associated array
+    $out = [				
         'doc'   => 'SPE::01',
         'nav1'  => '',
         'head'  => 'Simple',
         'main'  => '<p>Error: missing page!</p>',
         'foot'  => 'Copyright (C) 2015-2017 Mark Constable (AGPL-3.0)',
     ],
-    $nav1 = [				//multidimensional array
+    $nav1 = [			
         ['Home', '?m=home'],
         ['About', '?m=about'],
         ['Contact', '?m=contact'],
@@ -31,8 +31,7 @@ echo new class  //php class
     }
 
     public function __toString() : string //toString method allows to decide how it will react when treated as string
-										  // it handles the transformation of the object into some string representation
-    {
+										 {
         return $this->html();
     }
 
