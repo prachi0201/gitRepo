@@ -16,9 +16,7 @@ part of the framework. It has 3 components...
   as strings and amalgamated to the global `$out` array. There is no "raw"
   (outside of a method or function) code allowed let alone any line by line
   echo statements.
-
-A simple editing in the original file README.md has been made by this line.  
-  
+Editing this file  
 **TODO: complete documentation.**
 
 [5]: https://github.com/markc/spe/blob/master/01-Simple/index.php#L5
